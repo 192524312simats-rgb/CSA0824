@@ -1,0 +1,19 @@
+p=int(input("Enter the principle amount:"))
+n=int(input("Enter the number of yerar:"))
+SC=input("Senior citizen yes/No:")
+G=input("Male/Female:")
+if SC=='Y' and G=='M':
+    print("SI=",(p*n*12)/100)
+elif SC=='Y' and G=='F':
+   print("SI=",(p*n*15)/100)
+else:
+    print("SI=",(p*n*10)/100)
+
+
+output:
+=== RESTART: C:/Users/SAIL/AppData/Local/Programs/Python/Python313/python.py ===
+Enter the principle amount:20000
+Enter the number of yerar:5
+Senior citizen yes/No:no
+Male/Female:male
+SI= 10000.0
